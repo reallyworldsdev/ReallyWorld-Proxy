@@ -1,0 +1,22 @@
+default-reason: тех.работы
+reason: '&cInvalid Path: &edefault-reasonswhitelist'
+author: Console
+motd: true
+custom-console-name:
+  enabled: false
+  name: Network
+enabled: false
+players:
+  by-name:
+  - alzxmpic
+  by-uuid: []
+kick-message:
+  global:
+  - '&fТЕХ.РАБОТЫ!!!'
+  - ' '
+  - '&6&lt.me/reallyworldsdev'
+  individual:
+  - '&fТЕХ.РАБОТЫ!!!'
+  - ' '
+  - '&6&lt.me/reallyworldsdev'
+default-reasons: {}

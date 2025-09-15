@@ -1,0 +1,212 @@
+#  
+# -----------------------------------------------------------------------
+#                               INFORMATION
+# -----------------------------------------------------------------------
+#  
+#  This is configuration file for AntiBot plugin, if you need help with
+#  configuration, please visit our documentation. 
+#  
+
+# -----------------------------------------------------------------------
+#                                GENERAL
+# -----------------------------------------------------------------------
+debug-enabled: false
+
+# -----------------------------------------------------------------------
+#                                 ANTIBOT
+# -----------------------------------------------------------------------
+cache-clear-interval: 3600
+verification-timeout: 30
+schematic-offsetx: -6
+schematic-offsetz: -6
+ignore-online-mode-players: false
+world-location:
+  x: 0.0
+  y: 98.0
+  z: 0.0
+spawn-location:
+  x: 0.5
+  y: 100.0
+  z: 0.5
+
+# -----------------------------------------------------------------------
+#                                MESSAGES
+# -----------------------------------------------------------------------
+no-permissions: <#ff0000>You don't have permissions to this command.</#ff0000>
+invalid-usage: <#ff0000>Correct command usage is <#b40a00><usage></#b40a00>.</#ff0000>
+verification-started-title: <#FBAC12><b>t.me/reallyworldsdev</b></#FBAC12>
+verification-started-subtitle: <white>Инструкция в чате.</white>
+verification-started-chat:
+- ''
+- ' <#FBAC12><b>АнтиБот Верификация:</b></#FBAC12>'
+- '  <white>{quest_task}</white>'
+- ''
+verification-ended-title: <#FBAC12><b>t.me/reallyworldsdev</b></#FBAC12>
+verification-ended-subtitle: <white>Вы успешно прошли верификацию.</white>
+verification-ended-chat:
+- ''
+- ' <#FBAC12><b>t.me/reallyworldsdev:</b></#FBAC12>'
+- '  <white>Вы успешно прошли верификацию, подключаемся к серверу..</white>'
+- ''
+verification-quest-boss-bar: <white><#FBAC12><b>t.me/reallyworldsdev:</b></#FBAC12>
+  {quest_task} <#FBAC12>({progress}%)</#FBAC12></white>
+verification-failed-kick-message:
+- <#FBAC12><b>t.me/reallyworldsdev</b></#FBAC12>
+- <white>Проверка не удалась, пожалуйста, повторите попытку.</white>
+
+# -----------------------------------------------------------------------
+#                              CHALLENGES
+# -----------------------------------------------------------------------
+challenges:
+  0:
+    message: Добудьте {amount} бревна
+    item: LOG
+    type: COLLECT_ITEMS
+    tool: IRON_AXE
+  1:
+    message: Добудьте {amount} алмаза
+    item: DIAMOND_ORE
+    type: COLLECT_ITEMS
+    tool: IRON_PICKAXE
+  2:
+    message: Добудьте {amount} угля
+    item: COAL_ORE
+    type: COLLECT_ITEMS
+    tool: IRON_PICKAXE
+  3:
+    message: Добудьте {amount} железа
+    item: IRON_ORE
+    type: COLLECT_ITEMS
+    tool: IRON_PICKAXE
+
+# -----------------------------------------------------------------------
+#                               MINECRAFT
+# -----------------------------------------------------------------------
+container-type:
+  FURNACE: FURNACE
+  ANVIL: ANVIL
+  CRAFTING_TABLE: CRAFTING
+item-transformation:
+  DIAMOND_ORE: DIAMOND
+  COAL_ORE: COAL
+world-scheme:
+  0:
+    type: LOG
+    location:
+      x: 4.0
+      y: 104.0
+      z: -4.0
+  1:
+    type: LOG
+    location:
+      x: 4.0
+      y: 103.0
+      z: -4.0
+  2:
+    type: LOG
+    location:
+      x: 4.0
+      y: 102.0
+      z: -4.0
+  3:
+    type: LOG
+    location:
+      x: 4.0
+      y: 101.0
+      z: -4.0
+  4:
+    type: LOG
+    location:
+      x: 4.0
+      y: 100.0
+      z: -4.0
+  5:
+    type: ANVIL
+    location:
+      x: 1.0
+      y: 100.0
+      z: -4.0
+  6:
+    type: FURNACE
+    location:
+      x: 0.0
+      y: 100.0
+      z: -4.0
+  7:
+    type: CRAFTING_TABLE
+    location:
+      x: -1.0
+      y: 100.0
+      z: -4.0
+  8:
+    type: IRON_ORE
+    location:
+      x: -3.0
+      y: 100.0
+      z: -4.0
+  9:
+    type: IRON_ORE
+    location:
+      x: -4.0
+      y: 100.0
+      z: -3.0
+  10:
+    type: IRON_ORE
+    location:
+      x: -4.0
+      y: 101.0
+      z: -4.0
+  11:
+    type: IRON_ORE
+    location:
+      x: -4.0
+      y: 100.0
+      z: -4.0
+  12:
+    type: DIAMOND_ORE
+    location:
+      x: -4.0
+      y: 101.0
+      z: 4.0
+  13:
+    type: DIAMOND_ORE
+    location:
+      x: -4.0
+      y: 100.0
+      z: 3.0
+  14:
+    type: DIAMOND_ORE
+    location:
+      x: -4.0
+      y: 100.0
+      z: 4.0
+  15:
+    type: DIAMOND_ORE
+    location:
+      x: -3.0
+      y: 100.0
+      z: 4.0
+  16:
+    type: COAL_ORE
+    location:
+      x: 4.0
+      y: 101.0
+      z: 4.0
+  17:
+    type: COAL_ORE
+    location:
+      x: 3.0
+      y: 100.0
+      z: 4.0
+  18:
+    type: COAL_ORE
+    location:
+      x: 4.0
+      y: 100.0
+      z: 4.0
+  19:
+    type: COAL_ORE
+    location:
+      x: 4.0
+      y: 100.0
+      z: 3.0
