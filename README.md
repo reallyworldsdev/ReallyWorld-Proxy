@@ -1,4 +1,4 @@
-# proxy from ReallyWorld
+# ReallyWorld-Proxy from ReallyWorldsDev
 ### * by @reallyworldsdev
 
 ## [ГАЙД КАК СКАЧАТЬ МОЮ СБОРКУ С GITHUB](https://github.com/reallyworldsdev/Github-Guide)
