@@ -25,8 +25,8 @@ hex-motd: true
  # так дети, кто не шарит как делать мотд залетай в тгк мой там сделал пост об этом :3 
  # t.me/reallyworldsdev - пост: https://t.me/c/2787881906/7
 
-line-1: "&x&1&E&8&E&F&C&l• &#F99204&la&#F98703&ll&#FA7C03&lz&#FA7102&lx&#FB6502&lm&#FB5A01&lp&#FC4F01&li&#FC4400&lc &x&1&E&8&E&F&C&l•    &#F99204&lП&#F98D04&lР&#F98804&lО&#FA8303&lШ&#FA7F03&lЕ&#FA7A03&lЛ &#FA7503&lО&#FA7002&lС&#FB6B02&lЕ&#FB6602&lН&#FB6102&lН&#FB5C01&lИ&#FB5801&lЙ &#FB5301&lВ&#FC4E01&lА&#FC4900&lЙ&#FC4400&lП"
-line-2: "&x&1&E&8&E&F&C&l• &x&F&B&E&6&D&41.16.5 &x&1&E&8&E&F&C&l• &x&F&B&E&6&D&41.21.7 &x&1&E&8&E&F&C&l•      &#FC4400&lЗ&#FC4B00&lА&#FC5101&lХ&#FB5801&lО&#FB5E01&lД&#FB6502&lИ &#FB6B02&lБ&#FA7202&lЫ&#FA7803&lС&#FA7F03&lТ&#FA8503&lР&#F98C04&lЕ&#F99204&lЕ"
+line-1: "&x&1&E&8&E&F&C&l• &#F99204&la&#F98703&ll&#FA7C03&lz&#FA7102&lx&#FB6502&lm&#FB5A01&lp&#FC4F01&li&#FC4400&lc &x&1&E&8&E&F&C&l•  &#FF4500&lС&#F84100&lА&#F13D00&lМ&#EB3900&lЫ&#E43500&lЙ &#DD3100&lС&#D62D00&lТ&#CF2900&lР&#C82500&lА&#C22000&lШ&#BB1C00&lН&#B41800&lЫ&#AD1400&lЙ &#A61000&lВ&#9F0C00&lА&#990800&lЙ&#920400&lП &#8B0000&l☠"
+line-2: "&x&1&E&8&E&F&C&l• &x&F&B&E&6&D&41.16.5 &x&1&E&8&E&F&C&l• &x&F&B&E&6&D&41.21.7 &x&1&E&8&E&F&C&l•   &f&l25 &#9C0A00&lО&#A20E00&lК&#A91100&lТ&#AF1500&lЯ&#B51900&lБ&#BB1D00&lР&#C22000&lЯ &#C82400&lВ &f&l13:00 &#F43E00&lМ&#FA4200&lС&#FF4500&lК"
 
 protocol:
 # t.me/reallyworldsdev
